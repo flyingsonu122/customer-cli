@@ -1,12 +1,6 @@
 # Customer Management CLI
 
-
-### Version
-1.0.0
-
-## Usage
-
-### Installation
+## Installation
 
 Install the dependencies
 
@@ -14,13 +8,26 @@ Install the dependencies
 $ npm install
 ```
 
-### Create Symlink
+
+## Create Symlink
 
 ```sh
 $ npm link
 ```
 
-### Commands
+## Usage
+
+* First of all, you should have mongoDB installed on your computer
+
+* Open a terminal in **C:\data\db>** directory and run mongod
+
+```sh
+$ mongod
+```
+
+* Leave it running, till you are working with this CLI
+
+## Commands
 
 List Customers (list or l)
 ```sh
@@ -47,17 +54,12 @@ Remove Customer (remove or r)
 $ customer-cli remove [_ID]
 ```
 
-## App Info
-
-### Took Guide from
+## Took Guide from
 
 **Brad Traversy**
 [Traversy Media](http://www.traversymedia.com)
 
-### Version
 
-1.0.0
-
-### License
+## License
 
 This project is licensed under the MIT License
